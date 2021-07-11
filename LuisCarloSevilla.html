@@ -192,14 +192,8 @@ pre code {
 <li>Player’s Rating</li>
 </ul>
 <p>Here is a snippet of data values:</p>
-<p><code>{r, echo=FALSE} chess &lt;- read.csv(&quot;chess-game - chess-game.csv&quot;, header = TRUE, sep = &quot;,&quot;) kable(chess)</code></p>
+<p><code>{r, echo = FALSE, results = &#39;asis&#39;} library(knitr) knitr::opts_chunk$set chess &lt;- read.csv(&quot;https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-game%20-%20chess-game.csv&quot;, header = TRUE, sep = &quot;,&quot;) knitr::kable(chess)</code></p>
 <p>I propose to use these inf</p>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo = FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = TRUE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 

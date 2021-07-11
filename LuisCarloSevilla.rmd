@@ -2,7 +2,9 @@
 title: "First Markdown Activity"
 author: "Luis Carlo Sevilla"
 date: "7/10/2021"
-output: html_document
+output:
+  html_document: default
+  word_document: default
 ---
 
 ## Studying Data
@@ -27,23 +29,19 @@ Chess can be a rather difficult and complex game and is played by millions of pe
 * Number of Turns per Game
 * Player's Rating
 
+
 Here is a snippet of data values:
 
-```{r, echo=FALSE}
-chess <- read.csv("chess-game - chess-game.csv", header = TRUE, sep = ",")
-kable(chess)
+
+
+```{r, echo = FALSE, results = 'asis'}
+library(knitr)
+knitr::opts_chunk$set
+chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-game%20-%20chess-game.csv", header = TRUE, sep = ",")
+knitr::kable(chess)
 ```
 
 I propose to use these inf
 
 
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-Note that the `echo = TRUE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
