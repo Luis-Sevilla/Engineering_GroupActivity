@@ -5,6 +5,7 @@ date: "7/10/2021"
 output: html_document
 ---
 ```{r setup}
+<<<<<<< HEAD
 download.file(url = "https://github.com/Luis-Sevilla/Engineering_GroupActivity/blob/a165a503b925161942a88f20309cf019359cf1b1/chess-game.csv",
               destfile = "ches-game.csv")
 
@@ -15,6 +16,9 @@ chessgame <- read.csv("chess-game.csv",
                         stringAsFactors = FALSE)
 
 View(chessgame)
+=======
+download.file(url)
+>>>>>>> a165a503b925161942a88f20309cf019359cf1b1
 
 ```
 
