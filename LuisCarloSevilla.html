@@ -184,7 +184,7 @@ pre code {
 </div>
 <div id="data-science-and-chess" class="section level2">
 <h2>Data Science and Chess</h2>
-<p>Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as <a href="lichess.com">Lichess.com</a>, <a href="Chess.com">Chess.com</a>, and many more. <a href="lichess.com">Lichess.com</a> has given a online data set of game statistics that is free to use. This data set includes the following:</p>
+<p>Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as <a href="lichess.com">Lichess.com</a>, <a href="Chess.com">Chess.com</a>, and many more. <a href="lichess.com">Lichess.com</a> has given a online data set of game statistics that is free to use. This data set includes 20,000 matches worth of the following data:</p>
 <ul>
 <li>Win rate of White and Black</li>
 <li>Opening Strategy Used</li>
@@ -194,74 +194,242 @@ pre code {
 <p>Here is a snippet of data values:</p>
 <table>
 <colgroup>
-<col width="100%" />
+<col width="5%" />
+<col width="3%" />
+<col width="9%" />
+<col width="4%" />
+<col width="8%" />
+<col width="8%" />
+<col width="7%" />
+<col width="44%" />
+<col width="7%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">ID.Turns.Victory.Status.Winner.White.Rating.Black.Rateing.Opening.Eco.Opening.Name.Opening.Play</th>
+<th align="left">id</th>
+<th align="right">turns</th>
+<th align="left">victory_status</th>
+<th align="left">winner</th>
+<th align="right">white_rating</th>
+<th align="right">black_rating</th>
+<th align="left">opening_eco</th>
+<th align="left">opening_name</th>
+<th align="right">opening_ply</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">TZJHLljE 13 outoftime white 1500 1191 D10 Slav Defense: Exchange Variation 5</td>
+<td align="left">TZJHLljE</td>
+<td align="right">13</td>
+<td align="left">outoftime</td>
+<td align="left">white</td>
+<td align="right">1500</td>
+<td align="right">1191</td>
+<td align="left">D10</td>
+<td align="left">Slav Defense: Exchange Variation</td>
+<td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">l1NXvwaE 16 resign black 1322 1261 B00 Nimzowitsch Defense: Kennedy Variation 4</td>
+<td align="left">l1NXvwaE</td>
+<td align="right">16</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1322</td>
+<td align="right">1261</td>
+<td align="left">B00</td>
+<td align="left">Nimzowitsch Defense: Kennedy Variation</td>
+<td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">mIICvQHh 61 mate white 1496 1500 C20 King’s Pawn Game: Leonardis Variation 3</td>
+<td align="left">mIICvQHh</td>
+<td align="right">61</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1496</td>
+<td align="right">1500</td>
+<td align="left">C20</td>
+<td align="left">King’s Pawn Game: Leonardis Variation</td>
+<td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">kWKvrqYL 61 mate white 1439 1454 D02 Queen’s Pawn Game: Zukertort Variation 3</td>
+<td align="left">kWKvrqYL</td>
+<td align="right">61</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1439</td>
+<td align="right">1454</td>
+<td align="left">D02</td>
+<td align="left">Queen’s Pawn Game: Zukertort Variation</td>
+<td align="right">3</td>
 </tr>
 <tr class="odd">
-<td align="left">9tXo1AUZ 95 mate white 1523 1469 C41 Philidor Defense 5</td>
+<td align="left">9tXo1AUZ</td>
+<td align="right">95</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1523</td>
+<td align="right">1469</td>
+<td align="left">C41</td>
+<td align="left">Philidor Defense</td>
+<td align="right">5</td>
 </tr>
 <tr class="even">
-<td align="left">MsoDV9wj 5 draw draw 1250 1002 B27 Sicilian Defense: Mongoose Variation 4</td>
+<td align="left">MsoDV9wj</td>
+<td align="right">5</td>
+<td align="left">draw</td>
+<td align="left">draw</td>
+<td align="right">1250</td>
+<td align="right">1002</td>
+<td align="left">B27</td>
+<td align="left">Sicilian Defense: Mongoose Variation</td>
+<td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">qwU9rasv 33 resign white 1520 1423 D00 Blackmar-Diemer Gambit: Pietrowsky Defense 10</td>
+<td align="left">qwU9rasv</td>
+<td align="right">33</td>
+<td align="left">resign</td>
+<td align="left">white</td>
+<td align="right">1520</td>
+<td align="right">1423</td>
+<td align="left">D00</td>
+<td align="left">Blackmar-Diemer Gambit: Pietrowsky Defense</td>
+<td align="right">10</td>
 </tr>
 <tr class="even">
-<td align="left">RVN0N3VK 9 resign black 1413 2108 B00 Nimzowitsch Defense: Kennedy Variation | Linksspringer Variation 5</td>
+<td align="left">RVN0N3VK</td>
+<td align="right">9</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1413</td>
+<td align="right">2108</td>
+<td align="left">B00</td>
+<td align="left">Nimzowitsch Defense: Kennedy Variation | Linksspringer Variation</td>
+<td align="right">5</td>
 </tr>
 <tr class="odd">
-<td align="left">dwF3DJHO 66 resign black 1439 1392 C50 Italian Game: Schilling-Kostic Gambit 6</td>
+<td align="left">dwF3DJHO</td>
+<td align="right">66</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1439</td>
+<td align="right">1392</td>
+<td align="left">C50</td>
+<td align="left">Italian Game: Schilling-Kostic Gambit</td>
+<td align="right">6</td>
 </tr>
 <tr class="even">
-<td align="left">afoMwnLg 119 mate white 1381 1209 B01 Scandinavian Defense: Mieses-Kotroc Variation 4</td>
+<td align="left">afoMwnLg</td>
+<td align="right">119</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1381</td>
+<td align="right">1209</td>
+<td align="left">B01</td>
+<td align="left">Scandinavian Defense: Mieses-Kotroc Variation</td>
+<td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="left">HgKLWPsz 39 mate white 1381 1272 A00 Van’t Kruijs Opening 1</td>
+<td align="left">HgKLWPsz</td>
+<td align="right">39</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1381</td>
+<td align="right">1272</td>
+<td align="left">A00</td>
+<td align="left">Van’t Kruijs Opening</td>
+<td align="right">1</td>
 </tr>
 <tr class="even">
-<td align="left">Vf5fKWzI 38 resign black 1381 1867 C02 French Defense: Advance Variation | Paulsen Attack 9</td>
+<td align="left">Vf5fKWzI</td>
+<td align="right">38</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1381</td>
+<td align="right">1867</td>
+<td align="left">C02</td>
+<td align="left">French Defense: Advance Variation | Paulsen Attack</td>
+<td align="right">9</td>
 </tr>
 <tr class="odd">
-<td align="left">HRti5mKv 60 resign black 1381 1936 C00 French Defense: Knight Variation 3</td>
+<td align="left">HRti5mKv</td>
+<td align="right">60</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1381</td>
+<td align="right">1936</td>
+<td align="left">C00</td>
+<td align="left">French Defense: Knight Variation</td>
+<td align="right">3</td>
 </tr>
 <tr class="even">
-<td align="left">2fEjSei6 31 resign black 1381 1607 C00 French Defense #2 2</td>
+<td align="left">2fEjSei6</td>
+<td align="right">31</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1381</td>
+<td align="right">1607</td>
+<td align="left">C00</td>
+<td align="left">French Defense #2</td>
+<td align="right">2</td>
 </tr>
 <tr class="odd">
-<td align="left">u7i6dOaJ 31 mate white 1094 1141 C50 Four Knights Game: Italian Variation 8</td>
+<td align="left">u7i6dOaJ</td>
+<td align="right">31</td>
+<td align="left">mate</td>
+<td align="left">white</td>
+<td align="right">1094</td>
+<td align="right">1141</td>
+<td align="left">C50</td>
+<td align="left">Four Knights Game: Italian Variation</td>
+<td align="right">8</td>
 </tr>
 <tr class="even">
-<td align="left">guanvMR5 43 resign black 1141 1094 C57 Italian Game: Two Knights Defense | Knight Attack 7</td>
+<td align="left">guanvMR5</td>
+<td align="right">43</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1141</td>
+<td align="right">1094</td>
+<td align="left">C57</td>
+<td align="left">Italian Game: Two Knights Defense | Knight Attack</td>
+<td align="right">7</td>
 </tr>
 <tr class="odd">
-<td align="left">PmpkWkmm 52 resign black 1094 1141 C50 Four Knights Game: Italian Variation 8</td>
+<td align="left">PmpkWkmm</td>
+<td align="right">52</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1094</td>
+<td align="right">1141</td>
+<td align="left">C50</td>
+<td align="left">Four Knights Game: Italian Variation</td>
+<td align="right">8</td>
 </tr>
 <tr class="even">
-<td align="left">EwaK0IsE 66 mate black 1141 1094 C50 Four Knights Game: Italian Variation 8</td>
+<td align="left">EwaK0IsE</td>
+<td align="right">66</td>
+<td align="left">mate</td>
+<td align="left">black</td>
+<td align="right">1141</td>
+<td align="right">1094</td>
+<td align="left">C50</td>
+<td align="left">Four Knights Game: Italian Variation</td>
+<td align="right">8</td>
 </tr>
 <tr class="odd">
-<td align="left">yrSDozT3 101 resign black 1094 1300 C41 Philidor Defense #3 5</td>
+<td align="left">yrSDozT3</td>
+<td align="right">101</td>
+<td align="left">resign</td>
+<td align="left">black</td>
+<td align="right">1094</td>
+<td align="right">1300</td>
+<td align="left">C41</td>
+<td align="left">Philidor Defense #3</td>
+<td align="right">5</td>
 </tr>
 </tbody>
 </table>
-<p>I propose to use these inf</p>
+<p>I propose to use these data to influence the decision making of a player based on the opening the opponent uses. In chess, the opening move is—I argue—one of the crucial and game-deciding part. It will show which player will be taking hold of the game. Choosing the proper opening can be crucial especially when your opponent is skilled enough to make use of the instances of the openings bring. Analyzing the data shown above, we can gather meaningful information out of the pattern that arises out of the data set and act accordingly. The method that will be used in the study would be <a href="https://www.sisense.com/glossary/prescriptive-analytics/">Prescriptive Analysis</a> so that information drawn out of the studies could give players proper insights to what opening should the player use and/or how the player will respond to the opponent’s opening.</p>
 </div>
 
 

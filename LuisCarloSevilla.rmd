@@ -22,7 +22,7 @@ Every content we consume in the internet---or anything technology related--- has
 
 ## Data Science and Chess
 
-Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as [Lichess.com](lichess.com), [Chess.com](Chess.com), and many more. [Lichess.com](lichess.com) has given a online data set of game statistics that is free to use. This data set includes the following:
+Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as [Lichess.com](lichess.com), [Chess.com](Chess.com), and many more. [Lichess.com](lichess.com) has given a online data set of game statistics that is free to use. This data set includes 20,000 matches worth of the following data:
 
 * Win rate of White and Black
 * Opening Strategy Used 
@@ -36,11 +36,11 @@ Here is a snippet of data values:
 
 ```{r, echo = FALSE, results = 'asis'}
 library(knitr)
-chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-game%20-%20chess-game.csv", header = TRUE, sep = ",")
+chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-games.csv", header = TRUE, sep = ",")
 knitr::kable(chess)
 ```
 
-I propose to use these inf
+I propose to use these data to influence the decision making of a player based on the opening the opponent uses. In chess, the opening move is---I argue---one of the crucial and game-deciding part. It will show which player  will be taking hold of the game. Choosing the proper opening can be crucial especially when your opponent is skilled enough to make use of the instances of the openings bring. Analyzing the data shown above, we can gather meaningful information out of the pattern that arises out of the data set and act accordingly. The method that will be used in the study would be [Prescriptive Analysis](https://www.sisense.com/glossary/prescriptive-analytics/) so that information drawn out of the studies could give players proper insights to what opening should the player use and/or how the player will respond to the opponent's opening. 
 
 
 
