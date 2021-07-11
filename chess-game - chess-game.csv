@@ -1,20 +1,20 @@
-ID	Turns	Victory Status	Winner	White Rating	Black Rateing	Opening Eco	Opening Name	Opening Play	
-TZJHLljE	13	outoftime	white	1500	1191	D10	Slav Defense: Exchange Variation	5	
-l1NXvwaE	16	resign	black	1322	1261	B00	Nimzowitsch Defense: Kennedy Variation	4	
-mIICvQHh	61	mate	white	1496	1500	C20	King's Pawn Game: Leonardis Variation	3	
-kWKvrqYL	61	mate	white	1439	1454	D02	Queen's Pawn Game: Zukertort Variation	3	
-9tXo1AUZ	95	mate	white	1523	1469	C41	Philidor Defense	5	
-MsoDV9wj	5	draw	draw	1250	1002	B27	Sicilian Defense: Mongoose Variation	4	
-qwU9rasv	33	resign	white	1520	1423	D00	Blackmar-Diemer Gambit: Pietrowsky Defense	10	
-RVN0N3VK	9	resign	black	1413	2108	B00	Nimzowitsch Defense: Kennedy Variation |  Linksspringer Variation	5	
-dwF3DJHO	66	resign	black	1439	1392	C50	Italian Game: Schilling-Kostic Gambit	6	
-afoMwnLg	119	mate	white	1381	1209	B01	Scandinavian Defense: Mieses-Kotroc Variation	4	
-HgKLWPsz	39	mate	white	1381	1272	A00	Van't Kruijs Opening	1	
-Vf5fKWzI	38	resign	black	1381	1867	C02	French Defense: Advance Variation |  Paulsen Attack	9	
-HRti5mKv	60	resign	black	1381	1936	C00	French Defense: Knight Variation	3	
-2fEjSei6	31	resign	black	1381	1607	C00	French Defense #2	2	
-u7i6dOaJ	31	mate	white	1094	1141	C50	Four Knights Game: Italian Variation	8	
-guanvMR5	43	resign	black	1141	1094	C57	Italian Game: Two Knights Defense |  Knight Attack	7	
-PmpkWkmm	52	resign	black	1094	1141	C50	Four Knights Game: Italian Variation	8	
-EwaK0IsE	66	mate	black	1141	1094	C50	Four Knights Game: Italian Variation	8	
-yrSDozT3	101	resign	black	1094	1300	C41	Philidor Defense #3	5	
+id	turns	victory_status	winner	white_rating	black_rating	opening_eco	opening_name	opening_ply
+TZJHLljE	13	outoftime	white	1500	1191	D10	Slav Defense: Exchange Variation	5
+l1NXvwaE	16	resign	black	1322	1261	B00	Nimzowitsch Defense: Kennedy Variation	4
+mIICvQHh	61	mate	white	1496	1500	C20	King's Pawn Game: Leonardis Variation	3
+kWKvrqYL	61	mate	white	1439	1454	D02	Queen's Pawn Game: Zukertort Variation	3
+9tXo1AUZ	95	mate	white	1523	1469	C41	Philidor Defense	5
+MsoDV9wj	5	draw	draw	1250	1002	B27	Sicilian Defense: Mongoose Variation	4
+qwU9rasv	33	resign	white	1520	1423	D00	Blackmar-Diemer Gambit: Pietrowsky Defense	10
+RVN0N3VK	9	resign	black	1413	2108	B00	Nimzowitsch Defense: Kennedy Variation |  Linksspringer Variation	5
+dwF3DJHO	66	resign	black	1439	1392	C50	Italian Game: Schilling-Kostic Gambit	6
+afoMwnLg	119	mate	white	1381	1209	B01	Scandinavian Defense: Mieses-Kotroc Variation	4
+HgKLWPsz	39	mate	white	1381	1272	A00	Van't Kruijs Opening	1
+Vf5fKWzI	38	resign	black	1381	1867	C02	French Defense: Advance Variation |  Paulsen Attack	9
+HRti5mKv	60	resign	black	1381	1936	C00	French Defense: Knight Variation	3
+2fEjSei6	31	resign	black	1381	1607	C00	French Defense #2	2
+u7i6dOaJ	31	mate	white	1094	1141	C50	Four Knights Game: Italian Variation	8
+guanvMR5	43	resign	black	1141	1094	C57	Italian Game: Two Knights Defense |  Knight Attack	7
+PmpkWkmm	52	resign	black	1094	1141	C50	Four Knights Game: Italian Variation	8
+EwaK0IsE	66	mate	black	1141	1094	C50	Four Knights Game: Italian Variation	8
+yrSDozT3	101	resign	black	1094	1300	C41	Philidor Defense #3	5
