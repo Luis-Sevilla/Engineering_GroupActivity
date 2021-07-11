@@ -13,7 +13,7 @@ As Professor Raymark mentioned, we generate almost **petabytes** of data per day
 ## Application of Data Science
 ![](https://miro.medium.com/max/700/1*209COHJ1LFfInRPuWQFylQ.png)
 
-Every content we consume in the internet---or anything technology related--- has been influenced or structured by Data Science to be optimized to its greatest capability. One application that we hold near and dear to our hearts is the **Autocomplete** function that we can find in search engines such as Google, Bing, DuckduckGO, and many more. The autocomplete function was first developed by Kevin Gibbs who sought to create a URL Completion algorithm but later developed to be the autocomplete function we know and love. It was created with the intention of taking advantage of the technological affordances of time to make web navigation more efficient. The algorithm of this function is based on the numerous search queries of millions of the Google search engines users.
+Every content we consume in the internet---or anything technology related--- has been influenced or structured by Data Science to be optimized to its greatest capability. One application that we hold near and dear to our hearts is the **Autocomplete** function that we can find in search engines such as Google, Bing, DuckduckGO, and many more. The autocomplete function was first developed by Kevin Gibbs who sought to create a URL Completion algorithm but later developed to be the autocomplete function we know and love. It was created with the intention of taking advantage of the technological affordances of time to make web navigation more efficient. The algorithm of this function is based on the numerous search queries of millions of the Google search engines users. Ateneo
 
 
 
