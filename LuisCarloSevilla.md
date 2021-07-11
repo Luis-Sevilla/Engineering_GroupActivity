@@ -4,24 +4,6 @@ author: "Luis Carlo Sevilla"
 date: "7/10/2021"
 output: html_document
 ---
-```{r setup}
-<<<<<<< HEAD
-download.file(url = "https://github.com/Luis-Sevilla/Engineering_GroupActivity/blob/a165a503b925161942a88f20309cf019359cf1b1/chess-game.csv",
-              destfile = "ches-game.csv")
-
-```
-
-```{r save}
-chessgame <- read.csv("chess-game.csv",
-                        stringAsFactors = FALSE)
-
-View(chessgame)
-=======
-download.file(url)
->>>>>>> a165a503b925161942a88f20309cf019359cf1b1
-
-```
-
 
 ## Studying Data
 
@@ -45,6 +27,13 @@ Chess can be a rather difficult and complex game and is played by millions of pe
 * Number of Turns per Game
 * Player's Rating
 
+Here is a snippet of data values:
+
+```{r, echo=FALSE}
+chess <- read.csv("chess-game - chess-game.csv", header = TRUE, sep = ",")
+kable(chess)
+```
+
 I propose to use these inf
 
 
@@ -53,7 +42,7 @@ I propose to use these inf
 
 You can also embed plots, for example:
 
-```{r pressure, echo=TRUE}
+```{r pressure, echo = FALSE}
 plot(pressure)
 ```
 

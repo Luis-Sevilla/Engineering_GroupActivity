@@ -171,14 +171,6 @@ pre code {
 </div>
 
 
-<p>```{r setup} download.file(url = “<a href="https://github.com/Luis-Sevilla/Engineering_GroupActivity/blob/a165a503b925161942a88f20309cf019359cf1b1/chess-game.csv" class="uri">https://github.com/Luis-Sevilla/Engineering_GroupActivity/blob/a165a503b925161942a88f20309cf019359cf1b1/chess-game.csv</a>”, destfile = “ches-game.csv”)</p>
-<pre><code>
-```{r save}
-chessgame &lt;- read.csv(&quot;chess-game.csv&quot;,
-                        stringAsFactors = FALSE)
-
-View(chessgame)
-</code></pre>
 <div id="studying-data" class="section level2">
 <h2>Studying Data</h2>
 <p>As Professor Raymark mentioned, we generate almost <strong>petabytes</strong> of data per day. These data are now considered as goldmines to not only just Data Scientist but also people in businesses, politics, medical field, and many more. Data can be used to solidify studies and help create solutions to modern day problems and can even be used for personal use but in order to do so the process of analyzing data must be done to draw meaningful information out of the pool of unsorted data.</p>
@@ -194,22 +186,19 @@ View(chessgame)
 <h2>Data Science and Chess</h2>
 <p>Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as <a href="lichess.com">Lichess.com</a>, <a href="Chess.com">Chess.com</a>, and many more. <a href="lichess.com">Lichess.com</a> has given a online data set of game statistics that is free to use. This data set includes the following:</p>
 <ul>
-<<<<<<< HEAD
 <li>Win rate of White and Black</li>
 <li>Opening Strategy Used</li>
 <li>Number of Turns per Game</li>
 <li>Player’s Rating</li>
 </ul>
+<p>Here is a snippet of data values:</p>
+<p><code>{r, echo=FALSE} chess &lt;- read.csv(&quot;chess-game - chess-game.csv&quot;, header = TRUE, sep = &quot;,&quot;) kable(chess)</code></p>
 <p>I propose to use these inf</p>
-=======
-<li>luis</li>
-</ul>
->>>>>>> a165a503b925161942a88f20309cf019359cf1b1
 </div>
 <div id="including-plots" class="section level2">
 <h2>Including Plots</h2>
 <p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=TRUE} plot(pressure)</code></p>
+<p><code>{r pressure, echo = FALSE} plot(pressure)</code></p>
 <p>Note that the <code>echo = TRUE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
