@@ -36,7 +36,6 @@ Here is a snippet of data values:
 
 ```{r, echo = FALSE, results = 'asis'}
 library(knitr)
-knitr::opts_chunk$set
 chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-game%20-%20chess-game.csv", header = TRUE, sep = ",")
 knitr::kable(chess)
 ```
