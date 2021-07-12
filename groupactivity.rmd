@@ -111,3 +111,36 @@ Helps in interpreting the data found in researches. It translates huge amounts o
 
 The topic deals with analyzing the relationship between product ratings and the tendency for people to buy such high rated products. It aims to see whether product reviews really persuade people’s decision on buying things online. The data needed for the research can be found on shopping platforms such as shopee and lazada as well as conducting personal surveys to generate our own data. Since the topic deals with finding the relationship between two factors, a correlation statistical method such as pearson r would be used to analyze the data. People who rely on online shopping will mostly benefit from this study as it will aid them in deciding their next purchase and hopefully help them avoid ordering low quality products.
 
+
+# Andrew Benson Kapunan Choa
+
+## Reason to Study Data
+
+We need to measure and monitor our performance to produce data. These data can be analyzed later on to produce trends or gaps. Analyzing data will make trends and possible problems more noticeable. That way improvements can be made based on conclusions from the data.
+
+* * *
+
+##Application in Policy Making
+
+The ISU is implementing procedures called project Optimization of a Decision Support System for Effective E-governance based on data analysis for measures on flood evacuation and the COVID-19 pandemic in the Cagayan Valley.
+
+[BusinessMirror](https://businessmirror.com.ph/2021/02/14/8-data-science-rd-projects-for-good-governance-launched/ "Source:")
+
+***
+
+## Possible Data Science Topic
+
+### Do video games really improve hand-eye coordination?
+
+#### Method
+
+Take a set of people who play video games and people who don’t play video games. For the people who play video games, also include what games they usually play. (rhythm, rpg, platformer, hack n’ slash, strategy, etc.)
+
+Both parties need to be tested based on their hand eye coordination. It cannot be video game related because that will make it biased nor can it be too strenuous (it’s not about athleticism).
+
+#### Metrics
+
+* Accuracy
+* Reflex
+* Control
+* Attention to Detail
