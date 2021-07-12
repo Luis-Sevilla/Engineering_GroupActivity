@@ -1,0 +1,113 @@
+---
+title: "First Markdown Activity"
+output: html_document
+---
+
+# Luis Carlo Sevilla
+
+## Studying Data
+
+As Professor Raymark mentioned, we generate almost **petabytes** of data per day. These data are now considered as goldmines to not only just Data Scientist but also people in businesses, politics, medical field, and many more. Data can be used to solidify studies and help create solutions to modern day problems and can even be used for personal use but in order to do so the process of analyzing data must be done to draw meaningful information out of the pool of unsorted data. 
+
+***
+
+## Application of Data Science
+
+### Policy-making
+![](https://www.coe.int/documents/2323735/7720949/2020-COVID19-HR-regional-roundtable2.jpg/9c5474ac-59bc-aedb-94e3-8957981aeb6e?t=1588593307000)
+
+A great example of instances that data science contributed to policy-making is the action that the government did in response to the recent COVID-19 virus outbreak. Analyzing patterns and data from the pandemic helped law-makers and officials to mandate certain ordinance and policy to certain areas of our country. The decision of government officials to raise certain community quarantine rules was due to the analysis of the data they gathered from people who contracted the said virus. 
+
+
+### Day to Day Decisions
+![](https://media.wired.co.uk/photos/606dba1c9a15f73a597a2aa1/master/w_1600%2Cc_limit/weather.jpg)
+
+
+Weather Forecast is one of the major factor that affects our day to day decision. It affects what we wear, what we eat, where should we go, and many more. Weather Forecast uses data science in order to accurately predict the weather in a certain period of time. 
+
+
+### Market Trends
+![](https://rakyat.news/wp-content/uploads/2020/12/Elon-Musk-and-Dogecoin-Founder-Want-to-Battle-Crypto-Bots.jpg)
+
+
+The recent boom of NFT (**Non-Fungible Token**) investors have stormed the internet and inspired millions of people to invest to these new "**internet currency**". Similar to stock market, the analysis of market trends are what investors are continuously monitoring in order for them to act whether they should sell their NFT or if they would buy more. People who have great knowledge about the market trends and people who analyze data that they can easily gather from the internet are the ones who greatly benefit and earn larger return. 
+
+### Scientific Research
+
+![](https://miro.medium.com/max/700/1*209COHJ1LFfInRPuWQFylQ.png)
+
+
+Every content we consume in the internet---or anything technology related--- has been influenced or structured by Data Science to be optimized to its greatest capability. One application that we hold near and dear to our hearts is the **Autocomplete** function that we can find in search engines such as Google, Bing, DuckduckGO, and many more. The autocomplete function was first developed by Kevin Gibbs who sought to create a URL Completion algorithm but later developed to be the autocomplete function we know and love. It was created with the intention of taking advantage of the technological affordances of time to make web navigation more efficient. The algorithm of this function is based on the numerous search queries of millions of the Google search engines users. It was later then optimized with the help of **Artificial Intelligence** to be further accurate not only based on the queries of other users but to also cater the interest and search history of the user. 
+
+*** 
+
+## Data Science and Chess
+
+
+Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as [Lichess.com](lichess.com), [Chess.com](Chess.com), and many more. [Lichess.com](lichess.com) has given a online data set of game statistics that is free to use. This data set includes 20,000 matches worth of the following data:
+
+* Win rate of White and Black
+* Opening Strategy Used 
+* Number of Turns per Game
+* Player's Rating
+
+
+Here is a snippet of data values:
+
+
+
+```{r, echo = FALSE, results = 'asis'}
+library(knitr)
+chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-games.csv", header = TRUE, sep = ",")
+knitr::kable(chess)
+```
+
+
+I propose to use these data to influence the decision making of a player based on the opening the opponent uses. In chess, the opening move is---I argue---one of the crucial and game-deciding part. It will show which player  will be taking hold of the game. Choosing the proper opening can be crucial especially when your opponent is skilled enough to make use of the instances of the openings bring. Analyzing the data shown above, we can gather meaningful information out of the pattern that arises out of the data set and act accordingly. The method that will be used in the study would be [Prescriptive Analysis](https://www.sisense.com/glossary/prescriptive-analytics/) so that information drawn out of the studies could give players proper insights to what opening should the player use and/or how the player will respond to the opponent's opening. 
+
+
+*** 
+
+# Joshua Tirana
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Importance of analyzing data
+
+We need to study and analyze data because it is an essential factor not only in the business environment but also in our daily life. It's not only useful for businesses to assess their place in the market and to help them make business decisions. The same thing can be applied in our day to day life. 
+
+## Applications of Data Science
+
+### Policy-making
+
+Helps in creating more productive and successful public policies. Data-based arguments are given by policy makers to provide solutions for public problems.
+
+![Policy Making](https://i1.wp.com/www.brookings.edu/wp-content/uploads/2020/04/ds.png?w=768&crop=0%2C0px%2C100%2C9999px&ssl=1)
+
+### Day-to-day decisions
+
+Ordering from an online platform such as shopee or lazada. Data analysis helps us determine from where we will buy our ordered product, which has good reviews, which has bad ones, it helps us determine whether a product has a good quality, whether the shop’s owner is accomodating, etc. It helps us make better decisions while ordering online.
+ 
+ ![Online Shopping](https://thesciencesurvey.com/wp-content/uploads/2020/06/F11173EF-9769-4152-849C-5F35E5BEFF87-1-2-900x675.png)
+ 
+### Knowing market trends
+
+Deciding which stock to invest for in the stock market. Analyzing the market trends helps traders to determine the future of the stock market. Through data analysis, and studying previous trends aids traders in predicting the trend of a stock, whether its trend will continue or decrease. This information helps them in investing in the right stock to avoid having loss and maximize profit.
+
+![Market Trends](https://www.pngitem.com/pimgs/m/505-5053323_stock-market-clip-art-hd-png-download.png)
+
+### Scientific Researches
+
+Helps in interpreting the data found in researches. It translates huge amounts of data to words which people can understand. Data analysis also helps in maintaining the integrity of the data, as it helps in preventing biases from the researchers. 
+
+![Research](https://i.pinimg.com/originals/5c/b4/8c/5cb48cea9219f94fbbb6a77009d0b56a.png)
+
+## Data Science Topic
+
+### The relationship between product reviews and customers' decision on ordering the product
+
+The topic deals with analyzing the relationship between product ratings and the tendency for people to buy such high rated products. It aims to see whether product reviews really persuade people’s decision on buying things online. The data needed for the research can be found on shopping platforms such as shopee and lazada as well as conducting personal surveys to generate our own data. Since the topic deals with finding the relationship between two factors, a correlation statistical method such as pearson r would be used to analyze the data. People who rely on online shopping will mostly benefit from this study as it will aid them in deciding their next purchase and hopefully help them avoid ordering low quality products.
+
