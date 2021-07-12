@@ -111,3 +111,42 @@ Helps in interpreting the data found in researches. It translates huge amounts o
 
 The topic deals with analyzing the relationship between product ratings and the tendency for people to buy such high rated products. It aims to see whether product reviews really persuade people’s decision on buying things online. The data needed for the research can be found on shopping platforms such as shopee and lazada as well as conducting personal surveys to generate our own data. Since the topic deals with finding the relationship between two factors, a correlation statistical method such as pearson r would be used to analyze the data. People who rely on online shopping will mostly benefit from this study as it will aid them in deciding their next purchase and hopefully help them avoid ordering low quality products.
 
+
+***
+
+# Karl Boncodin
+
+## Why Study and Analyze Data?
+
+Knowing that we are generating big data in the present day with our current technology, studying and analyzing these data  allows us to use this data to further improve our decision making and processing skills that could be very useful in our day to day life. 
+
+## Applications of Data Science
+
+### Policy-making
+![](https://www.fda.gov.ph/wp-content/uploads/2021/01/FDA-Web-Logo-150x150-1.png)
+
+Providing a proper healthcare system is one of the government's duties and data science is used to create policies related to healthcare. Such agencies like FDA use big data and analyze them in regulating drugs and food products that are going in and out of the country to ensure that these goods that will be released to the market are safe for consumers use.
+
+### Day-to-Day Decisions
+![](https://www.talktechdaily.com/wp-content/uploads/2019/05/Depositphotos_121907948_xl-2015.jpg)
+Travel/Traffic applications such as Waze and Google Maps help drivers find their desired location and directions towards it. Also, it helps them know whether there is traffic up ahead their way and redirect them to roads which have less traffic.
+
+### Knowing Marketing Trends
+![](https://miro.medium.com/max/1200/0*s2u0cA0oO34TV9qK.jpg)
+
+Business giants such as Amazon use recommendation based systems that uses big data in determining what their users wants, processes it, then streamlines it to encourage the user to buy the said product. Also, they utilized data gathered from users searches, needs, and personal details in recommending products that are suitable to the users situation. This also allowed them to determine when and what time users usually order which helped them improve their shipping capabilities. 
+
+### Scientific Researches
+![](https://www.cgdev.org/sites/default/files/pisa-covid-surveillance-our-world-in-data-fig-1.png?itok=LOX9b7Th)
+
+In the COVID-19 Outbreak, data science has helped medical scientists and experts in monitoring real time outbreaks, forecasting, and managing trends of the the outbreak countries and health organizations. It also assisted in making improvements in genome sequencing, patient care, discovering new medicine and vaccines.
+
+## Data Science Topic
+
+### Strategizing in Football using Data Science
+![](https://www.sportsvideo.org/new/wp-content/uploads/2020/03/OSORIO.png)
+
+Top European football teams (eg. Manchester City, FC Barcelona, Liverpool etc.) have hired talented data scientists or partnered with data intelligence companies for long term research projects related to player performance, development and recruitment as well as opponent scouting. Due to the availability and volume of this data, whether it is physical or video data, data science allows them to analyze these data in a way that would fit with the team's desired playing style or strategy. This gives them an added advantage.
+
+After recently watching Azkals performance during the Asian and World Cup qualifiers, it seems to me that they know less about the teams that they are facing especially teams that are actually better than us on paper and in real life. In studying how the European teams analyze these kind of data and applying it the the system, maybe we could get much better results in the future. This mostly consists of descriptive and inferential analysis because it is both studying data about our own players and opponents and using them to develop a system that could match much better teams in the future.
+
