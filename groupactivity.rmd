@@ -187,3 +187,37 @@ In the COVID-19 Outbreak, data science has helped medical scientists and experts
 Top European football teams (eg. Manchester City, FC Barcelona, Liverpool etc.) have hired talented data scientists or partnered with data intelligence companies for long term research projects related to player performance, development and recruitment as well as opponent scouting. Due to the availability and volume of this data, whether it is physical or video data, data science allows them to analyze these data in a way that would fit with the team's desired playing style or strategy. This gives them an added advantage.
 
 After recently watching Azkals performance during the Asian and World Cup qualifiers, it seems to me that they know less about the teams that they are facing especially teams that are actually better than us on paper and in real life. In studying how the European teams analyze these kind of data and applying it the the system, maybe we could get much better results in the future. This mostly consists of descriptive and inferential analysis because it is both studying data about our own players and opponents and using them to develop a system that could match much better teams in the future.
+
+***
+
+#Carl Perfecto
+
+##Why We Need to Study and Analyze Data
+
+Data, especially in our time and age has grown increasingly relevant as the capacity of the creation of info and data has greatly increased due to the improvement of technology. Because of machines, not only was the creation of data increased, but as well as the variety of the different kinds of data that can be collected and gathered that wasn't possible before.In short, with how data is so relevant in our everyday lives, it can be used to improve our lives. From the smallest things such as grocery prices or to more pressing issues like death rates, Data can be used to discover what the problem is and how to tackle it.
+
+***
+
+## Applications of Data Science
+
+### Policy-Making
+Lawmakers can study the data of which places have the most car accidents or crimes in order to know which places need to have more enforced laws.
+
+### Day-to-Day Decisions
+One example could be of when drivers choose to refuel their vehicles and where they do it. Nowadays it is very easy to see and compare the different oil prices of different dates and different brands which is helpful in making these decisions for drivers.
+
+### Marketing Trends
+One of the most important data for companies would be personal data that can be tracked by apps and sites online. These personal data will then be used by advertizers in order to cater to the user and make relevant ads appear for them.
+
+### Scientific Researches
+Keeping track of data is very useful for zoologists who need to keep track of populations of animals. Aside from populations there are also different kinds of data that are valuable as well such as the ratio of males to females of a certain species, the birthrate of a certain species, and plenty of others more.
+
+***
+
+## Science Topic Proposal
+
+### The amount of money people could have saved if they bought their food instead of ordering it.
+
+Perhaps one of the most trending habits these last years is ordering food at the comfort of your home instead of going out to buy it for yourself. However we all know that there's a price for this convenience, and it's the increased price of the food and additional delivery fee. The aim of this topic is to find out how much money would a person have been able to save in the span of a year if they instead went out and bought their food themselves. A lot of controlled variables will be taken in to consideration here however including ways of transportation to the restaurant taken by the person and etc. The desired outcome of this topic would be that perhaps finding out the amount of money one would have saved would encourage people to buy their food by themselves again and in turn make them go out of their house more often as well.
+
+***
