@@ -2,9 +2,6 @@
 title: "First Markdown Activity"
 author: "Luis Carlo Sevilla"
 date: "7/10/2021"
-output:
-  html_document: default
-  word_document: default
 ---
 
 ## Studying Data
@@ -14,13 +11,37 @@ As Professor Raymark mentioned, we generate almost **petabytes** of data per day
 ***
 
 ## Application of Data Science
+
+### Policy-making
+![](https://www.coe.int/documents/2323735/7720949/2020-COVID19-HR-regional-roundtable2.jpg/9c5474ac-59bc-aedb-94e3-8957981aeb6e?t=1588593307000)
+
+A great example of instances that data science contributed to policy-making is the action that the government did in response to the recent COVID-19 virus outbreak. Analyzing patterns and data from the pandemic helped law-makers and officials to mandate certain ordinance and policy to certain areas of our country. The decision of government officials to raise certain community quarantine rules was due to the analysis of the data they gathered from people who contracted the said virus. 
+
+
+### Day to Day Decisions
+![](https://media.wired.co.uk/photos/606dba1c9a15f73a597a2aa1/master/w_1600%2Cc_limit/weather.jpg)
+
+
+Weather Forecast is one of the major factor that affects our day to day decision. It affects what we wear, what we eat, where should we go, and many more. Weather Forecast uses data science in order to accurately predict the weather in a certain period of time. 
+
+
+### Market Trends
+![](https://rakyat.news/wp-content/uploads/2020/12/Elon-Musk-and-Dogecoin-Founder-Want-to-Battle-Crypto-Bots.jpg)
+
+
+The recent boom of NFT (**Non-Fungible Token**) investors have stormed the internet and inspired millions of people to invest to these new "**internet currency**". Similar to stock market, the analysis of market trends are what investors are continuously monitoring in order for them to act whether they should sell their NFT or if they would buy more. People who have great knowledge about the market trends and people who analyze data that they can easily gather from the internet are the ones who greatly benefit and earn larger return. 
+
+### Scientific Research
+
 ![](https://miro.medium.com/max/700/1*209COHJ1LFfInRPuWQFylQ.png)
+
 
 Every content we consume in the internet---or anything technology related--- has been influenced or structured by Data Science to be optimized to its greatest capability. One application that we hold near and dear to our hearts is the **Autocomplete** function that we can find in search engines such as Google, Bing, DuckduckGO, and many more. The autocomplete function was first developed by Kevin Gibbs who sought to create a URL Completion algorithm but later developed to be the autocomplete function we know and love. It was created with the intention of taking advantage of the technological affordances of time to make web navigation more efficient. The algorithm of this function is based on the numerous search queries of millions of the Google search engines users. It was later then optimized with the help of **Artificial Intelligence** to be further accurate not only based on the queries of other users but to also cater the interest and search history of the user. 
 
 *** 
 
 ## Data Science and Chess
+
 
 Chess can be a rather difficult and complex game and is played by millions of people all over the world. Recently, there has been a massive spike of players in online chess sites such as [Lichess.com](lichess.com), [Chess.com](Chess.com), and many more. [Lichess.com](lichess.com) has given a online data set of game statistics that is free to use. This data set includes 20,000 matches worth of the following data:
 
@@ -39,6 +60,7 @@ library(knitr)
 chess <- read.csv("https://raw.githubusercontent.com/Luis-Sevilla/Engineering_GroupActivity/master/chess-games.csv", header = TRUE, sep = ",")
 knitr::kable(chess)
 ```
+
 
 I propose to use these data to influence the decision making of a player based on the opening the opponent uses. In chess, the opening move is---I argue---one of the crucial and game-deciding part. It will show which player  will be taking hold of the game. Choosing the proper opening can be crucial especially when your opponent is skilled enough to make use of the instances of the openings bring. Analyzing the data shown above, we can gather meaningful information out of the pattern that arises out of the data set and act accordingly. The method that will be used in the study would be [Prescriptive Analysis](https://www.sisense.com/glossary/prescriptive-analytics/) so that information drawn out of the studies could give players proper insights to what opening should the player use and/or how the player will respond to the opponent's opening. 
 
