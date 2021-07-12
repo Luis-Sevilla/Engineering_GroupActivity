@@ -120,11 +120,11 @@ We need to measure and monitor our performance to produce data. These data can b
 
 * * *
 
-##Application in Policy Making
+## Application in Policy Making
 
 The ISU is implementing procedures called project Optimization of a Decision Support System for Effective E-governance based on data analysis for measures on flood evacuation and the COVID-19 pandemic in the Cagayan Valley.
 
-[BusinessMirror](https://businessmirror.com.ph/2021/02/14/8-data-science-rd-projects-for-good-governance-launched/ "Source:")
+Source: [BusinessMirror](https://businessmirror.com.ph/2021/02/14/8-data-science-rd-projects-for-good-governance-launched/)
 
 ***
 
