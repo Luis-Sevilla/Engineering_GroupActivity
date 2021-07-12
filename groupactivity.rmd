@@ -114,12 +114,48 @@ The topic deals with analyzing the relationship between product ratings and the 
 
 ***
 
+# Andrew Benson Kapunan Choa
+
+## Reason to Study Data
+
+We need to measure and monitor our performance to produce data. These data can be analyzed later on to produce trends or gaps. Analyzing data will make trends and possible problems more noticeable. That way improvements can be made based on conclusions from the data.
+
+* * *
+
+## Application in Policy Making
+
+The ISU is implementing procedures called project Optimization of a Decision Support System for Effective E-governance based on data analysis for measures on flood evacuation and the COVID-19 pandemic in the Cagayan Valley.
+
+Source: [BusinessMirror](https://businessmirror.com.ph/2021/02/14/8-data-science-rd-projects-for-good-governance-launched/)
+
+***
+
+## Possible Data Science Topic
+
+### Do video games really improve hand-eye coordination?
+
+#### Method
+
+Take a set of people who play video games and people who don’t play video games. For the people who play video games, also include what games they usually play. (rhythm, rpg, platformer, hack n’ slash, strategy, etc.)
+
+Both parties need to be tested based on their hand eye coordination. It cannot be video game related because that will make it biased nor can it be too strenuous (it’s not about athleticism).
+
+#### Metrics
+
+* Accuracy
+* Reflex
+* Control
+* Attention to Detail
+
+***
+
 # Karl Boncodin
 
 ## Why Study and Analyze Data?
 
 Knowing that we are generating big data in the present day with our current technology, studying and analyzing these data  allows us to use this data to further improve our decision making and processing skills that could be very useful in our day to day life. 
 
+***
 ## Applications of Data Science
 
 ### Policy-making
@@ -129,6 +165,7 @@ Providing a proper healthcare system is one of the government's duties and data 
 
 ### Day-to-Day Decisions
 ![](https://www.talktechdaily.com/wp-content/uploads/2019/05/Depositphotos_121907948_xl-2015.jpg)
+
 Travel/Traffic applications such as Waze and Google Maps help drivers find their desired location and directions towards it. Also, it helps them know whether there is traffic up ahead their way and redirect them to roads which have less traffic.
 
 ### Knowing Marketing Trends
@@ -141,7 +178,8 @@ Business giants such as Amazon use recommendation based systems that uses big da
 
 In the COVID-19 Outbreak, data science has helped medical scientists and experts in monitoring real time outbreaks, forecasting, and managing trends of the the outbreak countries and health organizations. It also assisted in making improvements in genome sequencing, patient care, discovering new medicine and vaccines.
 
-## Data Science Topic
+***
+## Possible Data Science Topic
 
 ### Strategizing in Football using Data Science
 ![](https://www.sportsvideo.org/new/wp-content/uploads/2020/03/OSORIO.png)
@@ -149,4 +187,3 @@ In the COVID-19 Outbreak, data science has helped medical scientists and experts
 Top European football teams (eg. Manchester City, FC Barcelona, Liverpool etc.) have hired talented data scientists or partnered with data intelligence companies for long term research projects related to player performance, development and recruitment as well as opponent scouting. Due to the availability and volume of this data, whether it is physical or video data, data science allows them to analyze these data in a way that would fit with the team's desired playing style or strategy. This gives them an added advantage.
 
 After recently watching Azkals performance during the Asian and World Cup qualifiers, it seems to me that they know less about the teams that they are facing especially teams that are actually better than us on paper and in real life. In studying how the European teams analyze these kind of data and applying it the the system, maybe we could get much better results in the future. This mostly consists of descriptive and inferential analysis because it is both studying data about our own players and opponents and using them to develop a system that could match much better teams in the future.
-
